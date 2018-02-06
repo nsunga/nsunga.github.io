@@ -14,4 +14,10 @@ $(document).ready(function() {
     }
     var typed = new Typed("#typed-strings", options);
   });
+
+  $('.skillbar').each(function(){
+  	$(this).find('.skillbar-bar').animate({
+  		width:$(this).attr('data-percent')
+	   },6000);
+   });
 });
