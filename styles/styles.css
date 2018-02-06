@@ -2,8 +2,19 @@ body {
   font-family: 'Ubuntu', sans-serif !important;
   /* font-family: 'Open Sans', sans-serif !important; */
 }
+p {
+  color: white !important;
+  letter-spacing: 3px;
+}
 h3 {
   color: white !important;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-top: 5vh !important;
+}
+#about > .container > .col-xs-12 > h3 {
+  color: #00FFFF !important;
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center;
@@ -19,11 +30,19 @@ h5 {
   text-transform: uppercase;
   letter-spacing: 3px;
 }
+.experience-box-body > h5 {
+  color: white !important;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
 ul {
   color: #8d93b7 !important;
 }
-li {
+ul > li {
   margin: 0 0 5px 5px !important;
+}
+.experience-box-body > ul {
+  color: #001a33 !important;
 }
 .anchor-pts > .col-xs-4 {
   text-align: right;
@@ -44,18 +63,36 @@ li {
 }
 .experience-box {
   border-radius: 15px;
-  border: 2px solid #00FFFF;
+  border: 2px solid #001a33;
   margin-top: 5vh;
 }
 .experience-box-body {
+  padding: 3px;
+}
+.about-me-box {
+  border-radius: 15px;
+  border: 2px solid #00FFFF;
+  margin-top: 5vh;
+}
+.about-me-box-body {
   padding: 3px;
 }
 .decorative-line {
   margin-top: 0;
   margin-bottom: 10px;
   min-width: 100% !important;
-  height: 1px !important;
+  height: 2px !important;
   background: #00FFFF;
+}
+.experience-box-body > .decorative-line{
+  margin-top: 0;
+  margin-bottom: 10px;
+  min-width: 100% !important;
+  height: 2px !important;
+  background: #001a33;
+}
+.img-round {
+  border-radius: 50%;
 }
 #typed-strings {
   font-family: 'Passion One', cursive !important;
@@ -79,9 +116,16 @@ li {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-#experience {
+#about {
   height: 100vh;
   background: #001a33;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#experience {
+  height: 100vh;
+  background: #8d93b7;
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
