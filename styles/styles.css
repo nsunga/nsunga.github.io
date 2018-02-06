@@ -1,0 +1,88 @@
+body {
+  font-family: 'Ubuntu', sans-serif !important;
+  /* font-family: 'Open Sans', sans-serif !important; */
+}
+h3 {
+  color: white !important;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-top: 5vh !important;
+}
+h4 {
+  color: white !important;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+h5 {
+  color: #8d93b7 !important;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+ul {
+  color: #8d93b7 !important;
+}
+li {
+  margin: 0 0 5px 5px !important;
+}
+.anchor-pts > .col-xs-4 {
+  text-align: right;
+}
+.anchor-pts {
+  margin-top: 4vh;
+}
+.nav-anchor, .nav-anchor:active, .nav-anchor:visited, .nav-anchor:focus {
+  color: #bcbcbc;
+  margin-right: 30px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-decoration: none !important;
+}
+.nav-anchor:hover {
+  color: white;
+}
+.experience-box {
+  border-radius: 15px;
+  border: 2px solid #00FFFF;
+  margin-top: 5vh;
+}
+.experience-box-body {
+  padding: 3px;
+}
+.decorative-line {
+  margin-top: 0;
+  margin-bottom: 10px;
+  min-width: 100% !important;
+  height: 1px !important;
+  background: #00FFFF;
+}
+#typed-strings {
+  font-family: 'Passion One', cursive !important;
+  letter-spacing: 2px;
+  font-size: 60px;
+  color: white;
+}
+#navbar {
+  height: 10vh;
+  width: 100vw;
+  position: fixed;
+  background-color: black;
+  z-index: 1;
+}
+#header {
+  padding-top: 45vh;
+  background: linear-gradient(#314755,#26a0da);
+  height: 100vh;
+  text-align: center;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#experience {
+  height: 100vh;
+  background: #001a33;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
