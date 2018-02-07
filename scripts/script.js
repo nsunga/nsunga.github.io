@@ -37,7 +37,8 @@ $(document).ready(function() {
 
      $('#about').removeClass('about-desktop');
      $('#about').addClass('about-mobile');
-
+     $('#experience').removeClass('experience-desktop');
+     $('#experience').addClass('experience-mobile');
      $('.className').removeAttr('height');
 
    }
@@ -49,7 +50,8 @@ $(document).ready(function() {
 
           $('#about').removeClass('about-desktop');
           $('#about').addClass('about-mobile');
-
+          $('#experience').removeClass('experience-desktop');
+          $('#experience').addClass('experience-mobile');
           $('.className').removeAttr('height');
 
         } else {
@@ -58,7 +60,8 @@ $(document).ready(function() {
           // $('#about').attr('height', '100vh');
           $('#about').addClass('about-desktop');
           $('#about').removeClass('about-mobile');
-
+          $('#experience').addClass('experience-desktop');
+          $('#experience').removeClass('experience-mobile');
 
         }
     }
