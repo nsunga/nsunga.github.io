@@ -41,6 +41,9 @@ ul {
 ul > li {
   margin: 0 0 5px 5px !important;
 }
+a {
+  text-decoration: none !important;
+}
 .experience-box-body > ul {
   color: #001a33 !important;
 }
@@ -111,10 +114,10 @@ ul > li {
   margin-bottom: 30px;
 }
 .proj-sent {
-  color: #26a0da !important;
+  color: #314755 !important;
   letter-spacing: 3px;
 }
-.proj-titles {
+.proj-titles > a >h4, .proj-titles > a > h6 {
   color: #26a0da !important;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -142,16 +145,6 @@ ul > li {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-/* #about {
-  height: 100vh;
-  background: #001a33;
-  margin: 0;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  -webkit-background-style: cover;
-  -moz-background-style: cover;
-  -o-background-size: cover;
-} */
 .about-desktop {
   height: 100vh;
   background: #001a33;
@@ -185,27 +178,6 @@ ul > li {
   background: #8d93b7;
   padding-bottom: 8vh;
 }
-/* #about-wrapper {
-  display: table;
-  position: relative;
-  height: 100%;
-  width: 100%;
-  background: #001a33;
-} */
-/* #experience {
-  height: 100vh;
-  background: #8d93b7;
-  margin: 0;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-#experience-wrapper {
-  display: table;
-  position: relative;
-  height: 100%;
-  width: 100%;
-  background: #8d93b7;
-} */
 #projects {
   height: 100vh;
   background: #f4f4f4;
