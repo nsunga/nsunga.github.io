@@ -208,7 +208,7 @@ ul > li {
 } */
 #projects {
   height: 100vh;
-  background: white;
+  background: #f4f4f4;
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
