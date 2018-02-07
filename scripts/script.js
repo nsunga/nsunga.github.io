@@ -20,4 +20,13 @@ $(document).ready(function() {
   		width:$(this).attr('data-percent')
 	   },6000);
    });
+
+   $('.proj-titles').each(function(){
+     var height = $(this).parent().next().find('p').outerHeight();
+     // console.log(height/2);
+     // console.log($(this).css('margin-top'));
+     // height = height/2 - $(this).css('margin-top');
+     $(this).css('padding-top', height/2);
+     console.log($(this).css('padding-top'));
+   });
 });

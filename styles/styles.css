@@ -94,6 +94,32 @@ ul > li {
 .img-round {
   border-radius: 50%;
 }
+.proj-headers {
+  color: #26a0da !important;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: left;
+  margin-top: 5vh !important;
+  margin-bottom: 30px;
+}
+.proj-headers {
+  color: #26a0da !important;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: left;
+  margin-top: 5vh !important;
+  margin-bottom: 30px;
+}
+.proj-sent {
+  color: #26a0da !important;
+  letter-spacing: 3px;
+}
+.proj-titles {
+  color: #26a0da !important;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: left;
+}
 #typed-strings {
   font-family: 'Passion One', cursive !important;
   letter-spacing: 2px;
@@ -122,6 +148,9 @@ ul > li {
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  -webkit-background-style: cover;
+  -moz-background-style: cover;
+  -o-background-size: cover;
 }
 #experience {
   height: 100vh;
@@ -130,7 +159,13 @@ ul > li {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
+#projects {
+  height: 100vh;
+  background: white;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 .skillbar {
 	position:relative;
 	display:block;
