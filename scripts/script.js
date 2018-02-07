@@ -29,4 +29,38 @@ $(document).ready(function() {
      $(this).css('padding-top', height/2);
      console.log($(this).css('padding-top'));
    });
+
+   var eventFired = 0;
+
+   if ($(window).width() <= 990) {
+     console.log('removed');
+
+     $('#about').removeClass('about-desktop');
+     $('#about').addClass('about-mobile');
+
+     $('.className').removeAttr('height');
+
+   }
+
+   $(window).on('resize', function() {
+    if (!eventFired) {
+        if ($(window).width() <= 990) {
+          console.log('removed');
+
+          $('#about').removeClass('about-desktop');
+          $('#about').addClass('about-mobile');
+
+          $('.className').removeAttr('height');
+
+        } else {
+          console.log('changed');
+
+          // $('#about').attr('height', '100vh');
+          $('#about').addClass('about-desktop');
+          $('#about').removeClass('about-mobile');
+
+
+        }
+    }
+  });
 });

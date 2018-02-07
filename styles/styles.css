@@ -152,12 +152,45 @@ ul > li {
   -moz-background-style: cover;
   -o-background-size: cover;
 }
+.about-desktop {
+  height: 100vh;
+  background: #001a33;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-style: cover;
+  -moz-background-style: cover;
+  -o-background-size: cover;
+}
+.about-mobile {
+  display: table;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: #001a33;
+  padding-bottom: 8vh;
+}
+#about-wrapper {
+  /* height: 100vh; */
+  display: table;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: #001a33;
+}
 #experience {
   height: 100vh;
   background: #8d93b7;
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+#experience-wrapper {
+  display: table;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: #8d93b7;
 }
 #projects {
   height: 100vh;
