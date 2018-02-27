@@ -66,4 +66,17 @@ $(document).ready(function() {
         }
     }
   });
+  var shiftWindow = function() {
+    if (location.hash) {
+      scrollBy(0, -70);
+      console.log('runs scroll');
+    } else {
+      scrollBy(0, -70);
+      console.log('still scrolls'); // TODO: KEEP GOINGGGG
+    }
+  };
+  $('.nav-anchor').on('click', shiftWindow);
+  //if (location.hash) shiftWindow();
+  //window.addEventListener("hashchange", shiftWindow);
+
 });

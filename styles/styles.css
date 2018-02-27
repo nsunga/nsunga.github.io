@@ -164,7 +164,7 @@ a {
   padding-bottom: 8vh;
 }
 .experience-desktop {
-  height: 100vh;
+  height: 100%;
   background: #8d93b7;
   margin: 0;
   background-repeat: no-repeat;
@@ -255,4 +255,11 @@ a {
 	line-height:35px;
 	color:#444;
 	color:rgba(0, 0, 0, 0.4);
+}
+.container-intro h3,
+.container-intro p {
+    display: inline;
+    vertical-align: top;
+    /* font-size: 16px; */
+    line-height: 28px;
 }
