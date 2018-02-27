@@ -1,3 +1,13 @@
+@media only screen and (max-width: 500px) {
+    /* For mobile phones: */
+    #navbar {
+      height: 16vh !important;
+      width: 100vw !important;
+      position: fixed !important;
+      background-color: black !important;
+      z-index: 1 !important;
+    }
+}
 body {
   font-family: 'Ubuntu', sans-serif !important;
   /* font-family: 'Open Sans', sans-serif !important; */
@@ -164,7 +174,7 @@ a {
   padding-bottom: 8vh;
 }
 .experience-desktop {
-  height: 100vh;
+  height: 100%;
   background: #8d93b7;
   margin: 0;
   background-repeat: no-repeat;
