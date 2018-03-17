@@ -39,6 +39,8 @@ $(document).ready(function() {
      $('#about').addClass('about-mobile');
      $('#experience').removeClass('experience-desktop');
      $('#experience').addClass('experience-mobile');
+     $('#projects').removeClass('projects-desktop');
+     $('#projects').addClass('projects-mobile');
      $('.className').removeAttr('height');
 
    }
@@ -52,6 +54,8 @@ $(document).ready(function() {
           $('#about').addClass('about-mobile');
           $('#experience').removeClass('experience-desktop');
           $('#experience').addClass('experience-mobile');
+          $('#projects').removeClass('projects-desktop');
+          $('#projects').addClass('projects-mobile');
           $('.className').removeAttr('height');
 
         } else {
@@ -62,6 +66,8 @@ $(document).ready(function() {
           $('#about').removeClass('about-mobile');
           $('#experience').addClass('experience-desktop');
           $('#experience').removeClass('experience-mobile');
+          $('#projects').addClass('projects-desktop');
+          $('#projects').removeClass('projects-mobile');
 
         }
     }
